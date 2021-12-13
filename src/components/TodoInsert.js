@@ -14,11 +14,16 @@ const TodoInsert = (props) => {
     }, [value]);
 
 
+
     return (
         <form className="TodoInsert" onSubmit={onSubmit}>
              
-            <input placeholder="숫자를 입력하세요" value={value}
+            <input placeholder="숫자를 입력하세요" type = "text" maxlength = "3"  value={value}
                 onChange={onChange} />
+                
+
+
+        
             <button type="submit">
                 투구
             </button>
