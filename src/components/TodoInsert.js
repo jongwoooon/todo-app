@@ -14,14 +14,15 @@ const TodoInsert = (props) => {
     }, [value]);
 
 
-
     return (
         <form className="TodoInsert" onSubmit={onSubmit}>
-            <input placeholder="할 일을 입력하세요" value={value}
+             
+            <input placeholder="숫자를 입력하세요" value={value}
                 onChange={onChange} />
             <button type="submit">
-                <MdAdd />
+                투구
             </button>
+           
         </form>
     );
 };

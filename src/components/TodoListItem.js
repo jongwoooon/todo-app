@@ -25,8 +25,6 @@ const TodoListItem = (props) => {
                 <MdRemoveCircleOutline></MdRemoveCircleOutline>
             </div>
 
-           
-
 
 
         </div>
